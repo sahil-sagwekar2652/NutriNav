@@ -46,7 +46,7 @@ def callback():
 @app.route("/login")
 def login():
     return oauth.auth0.authorize_redirect(
-        redirect_uri=url_for("/callback", _external=True)
+        redirect_uri=url_for("callback", _external=True)
     )
 
 
