@@ -11,7 +11,7 @@ The Location-Based Diet Recommendation System is a project that aims to provide 
 
 ## Demo
 
-Insert gif or link to demo
+[demo](https://discordapp.com/channels/@me/1099020271257661492/1099649544330936410)
 
 
 ## API USED
