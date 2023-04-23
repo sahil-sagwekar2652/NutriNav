@@ -2,18 +2,21 @@
 <html>
     <head>
         <title>location page</title>
-        <link rel="stylesheet" href="feed_me.css" >
+        <link rel="stylesheet" href="static/css/feed_me.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <form>
-            <label for="location">Enter your location:</label>
+        <form method="post">
+            <label for="location">Enter the name of your city:</label>
             <input type="text" id="location" name="location">
-            <button type="submit" onclick="getLocation()">Submit</button>
+            <button type="submit">Submit</button>
           </form>
 
           <button onclick="getLocation()" class="current-location">Get Location</button>
-          <p id="location"></p>
+          <p id="loc_data"></p>
 
-          <script type="text/javascript" src="feed_me.js" charset="utf-8"></script>
+          <script type="text/javascript" src="static/js/feed_me.js" charset="utf-8"></script>
     </body>
 </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ label }}</title>
+    <link rel="stylesheet" href="static/css/recipe.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="recipe-card">
+      <img src="{{ img }}" alt="Recipe Image" />
+      <h2>{{ label }}</h2>
+      <br>
+<!--      <a href="{{ uri }}" type="_blank">Link to the recipe</a>-->
+      <ul>
+        {% for ingredient in ingredients: %}
+        <li>{{ ingredient }}</li>
+        <br>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
