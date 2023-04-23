@@ -135,15 +135,6 @@ def feed_me():
         return redirect("/login")
 
 
-@app.route('/recipe')
-def recipe():
-    current_user = session.get('user')
-    if current_user:
-        return render_template("recipe.html", uri=uri, )
-    else:
-        return redirect("/login")
-
-
 @app.errorhandler(404)
 def not_found_error(error):
     return render_template('404.html'), 404
