@@ -13,13 +13,13 @@ The Location-Based Diet Recommendation System is a project that aims to provide 
 
 [![My Skills](https://skillicons.dev/icons?i=python,flask,github,)](https://skillicons.dev)
 
-## Deployed on
+## 🌐 Deployed on
 
 <a href="https://web-production-3557.up.railway.app">
 <img src="https://railway.app/brand/logotype-light.svg" width="50%">
 </a>
 
-## Demo
+## 🎥 Demo video
 
 [![Opera Snapshot_2023-04-23_135049_localhost](https://user-images.githubusercontent.com/89456541/233836083-ea218b87-5a34-4969-a06b-9a80cb1d9adb.png)](https://www.youtube.com/watch?v=nGDiP6eFsiM)
 
@@ -49,11 +49,18 @@ python main.py
 
 The site should be accessible through "http://localhost:3000"
 
-## API USED
+## 🤖 APIs used
 - [Openweather api](https://weatherstack.com/)
 - [Auth0 ](https://auth0.com/)
 - [EDAMAM](https://www.edamam.com/) 
 
+## 🤝 Contributors
+
+Had a lot of fun working with [Rahul](https://github.com/sonar288) on this project during Design Hacks hackathon by MLH.
+
+<a href="https://github.com/sahil-sagwekar2652/NutriNav/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sahil-sagwekar2652/NutriNav" />
+</a>
 
 
 ## Acknowledgements
@@ -61,7 +68,6 @@ The site should be accessible through "http://localhost:3000"
  - [google fonts](https://fonts.google.com/)
  - [github](https://github.com)
  
-
 
 ## License
 
